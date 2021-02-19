@@ -9,8 +9,13 @@ class Users{
 
   //constructor
 
-  function __construct(){
-    
+  function __construct($id,$nom,$prenom,$email,$password,$etat){
+    $this->id = $id;
+    $this->nom = $nom;
+    $this->prenom = $prenom;
+    $this->email = $email;
+    $this->password = $password;
+    $this->etat = $etat;
   }
   //setters
   function setId($id){
