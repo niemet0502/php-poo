@@ -8,7 +8,7 @@ class Users{
   private $etat;
 
   //constructor
-
+  
   public function __construct($id,$nom,$prenom,$email,$password,$etat){
     $this->id = $id;
     $this->nom = $nom;
