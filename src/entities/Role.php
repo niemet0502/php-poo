@@ -6,8 +6,9 @@ class Role{
 
   //constructor
 
-  function __construct(){
-    
+  function __construct($id,$libelle){
+    $this->id = $id;
+    $this->libelle = $libelle;
   }
   //setters
   function setId($id){
