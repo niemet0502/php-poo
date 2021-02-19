@@ -9,7 +9,7 @@ class Users{
 
   //constructor
 
-  function __construct($id,$nom,$prenom,$email,$password,$etat){
+  public function __construct($id,$nom,$prenom,$email,$password,$etat){
     $this->id = $id;
     $this->nom = $nom;
     $this->prenom = $prenom;
@@ -18,37 +18,37 @@ class Users{
     $this->etat = $etat;
   }
   //setters
-  function setId($id){
+  public function setId($id){
     $this->id = $id;
   }
-  function setNom($nom){
+  public function setNom($nom){
     $this->nom = $nom;
   }
-  function setPrenom($prenom){
+  public function setPrenom($prenom){
     $this->prenom = $prenom;
   }
-  function setPassword($password){
+  public function setPassword($password){
     $this->password = $password;
   }
-  function setEtat($etat){
+  public function setEtat($etat){
     $this->etat = $etat;
   }
 
   //getters
 
-  function getId(){
+  public function getId(){
     return $this->id;
   }
-  function getNom(){
+  public function getNom(){
     return $this->nom;
   }
-  function getPrenom(){
+  public function getPrenom(){
     return $this->prenom;
   }
-  function getPassword(){
+  public function getPassword(){
     return $this->password;
   }
-  function getEtat(){
+  public function getEtat(){
     return $this->etat;
   }
 }
