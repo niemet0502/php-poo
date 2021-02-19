@@ -3,6 +3,12 @@ class Role{
   private $id;
   private $libelle;
 
+
+  //constructor
+
+  function __construct(){
+    
+  }
   //setters
   function setId($id){
     $this->id = $id;
