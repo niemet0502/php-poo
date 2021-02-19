@@ -7,6 +7,11 @@ class Users{
   private $password;
   private $etat;
 
+  //constructor
+
+  function __construct(){
+    
+  }
   //setters
   function setId($id){
     $this->id = $id;
