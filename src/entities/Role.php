@@ -6,23 +6,23 @@ class Role{
 
   //constructor
 
-  function __construct($id,$libelle){
+  public function __construct($id,$libelle){
     $this->id = $id;
     $this->libelle = $libelle;
   }
   //setters
-  function setId($id){
+  public function setId($id){
     $this->id = $id;
   }
-  function setLibelle($libelle){
+  public function setLibelle($libelle){
     $this->id = $libelle;
   }
 
   //getters
-  function getId(){
+  public function getId(){
     return $this->id;
   }
-  function getLibelle(){
+  public function getLibelle(){
     return $this->libelle;
   }
 
